@@ -3,6 +3,9 @@ package Practice;
 public class increment {
     public static void main(String[] args) {
         int a = 10;
+//        System.out.println(++a);
+//        System.out.println(a++);
+//        System.out.println(a++);
         System.out.println(++a + a++ + a++);
         System.out.println(a);
         // A -> ++a -> Exp1 -> 11, a-> 11
